@@ -33,3 +33,62 @@ Audits against security framework standards and internal/regulatory requirements
 Active Directory (AD) checks.
 Version and change control for servers and endpoints.
 Integration-ready scan results -- with third-party IT and security platforms.
+Types of Nessus scans
+Both Nessus Professional and Nessus Expert provide unlimited IT vulnerability assessments plus vulnerability scoring with CVSS v4, EPSS and Tenable VPR (for top 10 vulnerabilities). The Expert version also provides web application scans, external attack surface scans and cloud infrastructure scans.
+
+Web application scanning enables organizations to discover and remediate vulnerabilities in web applications, fortifying these assets against attacks and compromise. When running these scans with Nessus Expert, organizations can add five fully qualified domain names (FQDNs) to provide the exact locations of web applications in the DNS for vulnerability scanning. Nessus also includes the option to add FQDNs as needed.
+
+Through external attack surface scans and cloud infrastructure scans, security teams address more threats that put the organization at an increased risk of cyberattacks. As the attack surface expands beyond traditional desktops, workstations and network equipment to include more internet-facing and cloud-native assets, the automated point-in-time assessments provided by Nessus Expert allow teams to quickly identify and remediate vulnerabilities.
+Benefits of Nessus scans
+In addition to finding and fixing vulnerabilities in traditional IT assets, internet-facing assets, cloud infrastructure and web applications, companies can also use Nessus Expert to scan their infrastructure as code (IaC) repositories. By doing so, they can scan their cloud services and infrastructure before pushing code to production -- an approach known as shift left -- to prevent unknown risk and confidently deploy new apps and workloads to the cloud.
+
+The other benefits of Nessus scans include the following:
+
+Teams can proactively assess and remediate vulnerabilities for all kinds of assets and workloads.
+They can scan for disruptive and potentially costly vulnerabilities before code deployment.
+Early and frequent scans can help prevent vulnerabilities, misconfigurations and other issues from reaching cloud production instances.
+Scans are supported by commercial threat intelligence feeds, thus highlighting malware and ransomware running on hosts and providing actionable insights for remediation efforts.
+Scans cover over 47,000 unique IT assets and can also identify more than 400 zero-day vulnerabilities (Nessus Expert).
+What are the pros and cons of Nessus?
+New security vulnerabilities are emerging every day. Organizations need to be aware of these vulnerabilities and proactively prevent them from harming their assets. Nessus provides a fast, user-friendly way to find and fix vulnerabilities in many kinds of IT assets, including internet-facing and cloud-based resources.
+
+As of January 2025, Nessus covers more than 77,000 Common Vulnerabilities and Exposures (CVEs) to provide broad and deep vulnerability coverage for organizations and their security teams. Additionally, Tenable Research maintains programs to detect new vulnerabilities. These programs, known as plugins, contain vulnerability information and simple remediation actions for security teams. The Nessus plugin library contains more than 227,000 plugins covering vulnerabilities across four severity types: low, medium, high and critical.
+
+Nessus provides more than 450 preconfigured templates to help users understand where vulnerabilities are present. They can use these templates to run basic network scans, advanced scans, advanced dynamic scans, malware scans, as well as scans to identify vulnerabilities in mobile devices, web applications, AD, etc. Nessus also provides prebuilt templates to detect WannaCry ransomware, SolarWinds Solorigate vulnerabilities and Apache Log4j CVE. Templates are also available to check configuration compliance against internal best practices and regulatory requirements like CIS benchmarks .
+
+Another benefit of Nessus is that it has a low false-positive rate of 0.32 defects per 1 million scans. This indicates a rate that's better than Six Sigma accuracy. Too many false positives can overwhelm security teams and lead to alert fatigue, causing legitimate threats to be overlooked. This is why a low false-positive rate is highly desirable in a vulnerability scanner.
+
+Nessus is suitable for a wide range of use cases. For example, penetration testers can use Nessus to find major vulnerabilities and then use this information to guide their full breach simulations. Similarly, cybersecurity consultants can use Nessus to find vulnerabilities on organizations' networks. They can also deliver comprehensive reports that include information about these vulnerabilities and provide actionable remediation suggestions to help the client organization strengthen its overall security posture.
+
+Finally, Nessus provides an intuitive experience to users, particularly those on the front lines of an organization's security infrastructure. Also, it is a highly portable vulnerability scanner, making it a useful tool for security professionals who frequently move between locations.
+
+For some organizations, the chief drawback of Nessus is its price. Nessus Expert costs almost twice the cost of Nexxus Professional. Even so, Nessus Professional can be a pricey purchase, especially for smaller organizations with limited cybersecurity budgets. Also, organizations are required to commit to at least a one-year license, regardless of which version they purchase. Services like advanced support and on-demand training are add-ons that must be purchased separately. On the plus side, any organization can try a free version of Nessus Professional or Nessus Expert for seven days before making the final purchase decision.
+
+Nessus Professional vs. Nessus Expert
+Both Nessus Professional and Nessus Expert offer unlimited IT vulnerability assessments and other key features, such as access to an extensive plugin database, configurable reports, portability and community support. Nessus Expert offers a few additional features for organizations with more advanced needs.
+
+The Professional version is recommended for security consultants, security practitioners and pen testers. The key features of Nessus Professional are as follows:
+
+It provides access to a library of more than 210,000 plugins that automatically update in real time and provide remediation actions to help security teams identify and remediate vulnerabilities.
+Custom audit files simplify verifications of the organization's configuration requirements and compliance standards.
+It provides coverage of more than 88,000 CVEs and visibility into more than 47,000 IT assets.
+Seamless integration with multiple commercial threat intelligence feeds generates useful insights into potential malware and ransomware that may be present in the IT environment.
+It comes with preconfigured templates for IT and mobile assets to quickly detect vulnerabilities.
+Its updated user interface simplifies navigation.
+In addition, the Professional license can be transferred between computers or run on a Raspberry Pi for high portability and simplified use.
+
+These benefits notwithstanding, Nessus Professional is not suitable for organizations that need to do the following:
+
+Scan their external attack surface.
+Add domains for web applications.
+Scan cloud infrastructure.
+Nessus Expert fills in these gaps and provides greater breadth and depth of coverage into the enterprise attack surface. Expert includes everything in the Professional version and additional features to address risks outside of traditional IT assets. It does this by assessing all IaC repositories for vulnerabilities before they are pushed to production and by discovering internet-exposed IT assets, including cloud services.
+
+Nessus Expert is designed to provide the following benefits:
+
+Greater visibility into the internet-facing attack surface.
+Discovery of unknown security issues that may be part of the software development lifecycle.
+Discovery of zero-day vulnerabilities for stronger, more proactive protection from emerging risks.
+A more proactive and reliable approach to vulnerability assessment for cloud workloads, newly discovered assets and assets outside the traditional security perimeter.
+Safe and fast vulnerability scanning with minimal disruptions or delays.
+Nessus Expert is suitable for large organizations and small to medium-sized businesses that require a more expansive feature set. Furthermore, security consultants, pen testers and developers can benefit from the ease of use, portability and advanced features offered in Nessus Expert.

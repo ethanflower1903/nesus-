@@ -1,4 +1,7 @@
 # nessus-
+n 1998 Renaud Deraison created The Nessus Project as a free remote security scanner.[2] On October 5 2005, with the release of Nessus 3, the project changed from the GNU General Public License to a proprietary license.[3]
+
+The Nessus 2 engine and some of the plugins are still using the GNU General Public License, leading to forks based on Nessus like OpenVAS[2][4] and Greenbone Sustainable Resilience.[5]
 Nessus is a platform developed by Tenable that scans for security vulnerabilities in devices, applications, operating systems, cloud services and other network resources. Originally launched as an open source tool in 1998, its enterprise edition became a commercial product in 2005.
 
 Nessus is now available in two enterprise versions: Nessus Professional and Nessus Expert. Both versions support unlimited IT vulnerability assessments and multiple systems for vulnerability scoring. Nessus Expert also includes capabilities that are not available in Nessus Professional, such as web application scanning, external attack surface scanning and cloud infrastructure scanning.

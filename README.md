@@ -1,5 +1,5 @@
 # nessus--
-Nessus is a proprietary vulnerability scanner developed by Tenable, Inc.//
+Nessus is a proprietary vulnerability scanner developed by Tenable, Inc.////
 in 1998 Renaud Deraison created The Nessus Project as a free remote security scanner.[2] On October 5 2005, with the release of Nessus 3, the project changed from the GNU General Public License to a proprietary license.[3]
 
 The Nessus 2 engine and some of the plugins are still using the GNU General Public License, leading to forks based on Nessus like OpenVAS[2][4] and Greenbone Sustainable Resilience.[5]
